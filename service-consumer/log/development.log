@@ -1,0 +1,621 @@
+I, [2021-05-26T19:33:50.887171 #64443]  INFO -- : Initializing Karafka server 64443
+I, [2021-05-26T19:33:50.964289 #64443]  INFO -- : Running Karafka server 64443
+I, [2021-05-26T19:33:50.964958 #64443]  INFO -- : New topics added to target list: signals
+I, [2021-05-26T19:33:50.965007 #64443]  INFO -- : Fetching cluster metadata from kafka://192.168.1.72:9092
+I, [2021-05-26T19:33:50.970356 #64443]  INFO -- : Discovered cluster metadata; nodes: localhost:9092 (node_id=1)
+I, [2021-05-26T19:33:50.970635 #64443]  INFO -- : [[notification_service_topic_group] {}:] Joining group `notification_service_topic_group`
+I, [2021-05-26T19:33:50.970716 #64443]  INFO -- : [[notification_service_topic_group] {}:] Will fetch at most 1048576 bytes at a time per partition from signals
+I, [2021-05-26T19:33:50.971019 #64443]  INFO -- : [[notification_service_topic_group] {}:] Fetching cluster metadata from kafka://192.168.1.72:9092
+I, [2021-05-26T19:33:50.975132 #64443]  INFO -- : [[notification_service_topic_group] {}:] Discovered cluster metadata; nodes: localhost:9092 (node_id=1)
+I, [2021-05-26T19:33:50.975293 #64443]  INFO -- : [[notification_service_topic_group] {}:] There are no partitions to fetch from, sleeping for 1s
+I, [2021-05-26T19:33:51.979702 #64443]  INFO -- : [[notification_service_topic_group] {}:] There are no partitions to fetch from, sleeping for 1s
+I, [2021-05-26T19:33:52.073947 #64443]  INFO -- : [[notification_service_topic_group] {}:] Joined group `notification_service_topic_group` with member id `notification_service-1db7c214-e4af-47f2-8189-d769aefdfbb1`
+I, [2021-05-26T19:33:52.074017 #64443]  INFO -- : [[notification_service_topic_group] {}:] Chosen as leader of group `notification_service_topic_group`
+I, [2021-05-26T19:33:52.097745 #64443]  INFO -- : [[notification_service_topic_group] {}:] Partitions assigned for `signals`: 0
+I, [2021-05-26T19:33:52.980016 #64443]  INFO -- : [[notification_service_topic_group] {signals: 0}:] Seeking signals/0 to offset 0
+I, [2021-05-26T19:33:52.980166 #64443]  INFO -- : [[notification_service_topic_group] {signals: 0}:] New topics added to target list: signals
+I, [2021-05-26T19:33:52.980218 #64443]  INFO -- : [[notification_service_topic_group] {signals: 0}:] Fetching cluster metadata from kafka://192.168.1.72:9092
+I, [2021-05-26T19:33:52.986323 #64443]  INFO -- : [[notification_service_topic_group] {signals: 0}:] Discovered cluster metadata; nodes: localhost:9092 (node_id=1)
+I, [2021-05-26T19:33:54.112171 #64443]  INFO -- : Inline processing of topic signals with 1 messages took 1 ms
+I, [2021-05-26T19:33:54.114211 #64443]  INFO -- : Inline processing of topic signals with 1 messages took 1 ms
+I, [2021-05-26T19:33:54.115471 #64443]  INFO -- : Inline processing of topic signals with 1 messages took 1 ms
+I, [2021-05-26T19:33:54.116011 #64443]  INFO -- : Inline processing of topic signals with 1 messages took 0 ms
+I, [2021-05-26T19:33:54.116220 #64443]  INFO -- : Inline processing of topic signals with 1 messages took 1 ms
+I, [2021-05-26T19:33:54.116399 #64443]  INFO -- : Inline processing of topic signals with 1 messages took 0 ms
+I, [2021-05-26T19:33:54.116605 #64443]  INFO -- : Inline processing of topic signals with 1 messages took 0 ms
+I, [2021-05-26T19:33:54.117108 #64443]  INFO -- : Inline processing of topic signals with 1 messages took 0 ms
+I, [2021-05-26T19:33:54.117583 #64443]  INFO -- : Inline processing of topic signals with 1 messages took 0 ms
+I, [2021-05-26T19:33:54.117986 #64443]  INFO -- : Inline processing of topic signals with 1 messages took 0 ms
+I, [2021-05-26T19:33:54.118863 #64443]  INFO -- : Inline processing of topic signals with 1 messages took 1 ms
+I, [2021-05-26T19:33:54.119149 #64443]  INFO -- : Inline processing of topic signals with 1 messages took 1 ms
+I, [2021-05-26T19:33:54.119349 #64443]  INFO -- : Inline processing of topic signals with 1 messages took 0 ms
+I, [2021-05-26T19:33:54.119526 #64443]  INFO -- : Inline processing of topic signals with 1 messages took 0 ms
+I, [2021-05-26T19:33:54.119728 #64443]  INFO -- : Inline processing of topic signals with 1 messages took 0 ms
+I, [2021-05-26T19:33:54.120062 #64443]  INFO -- : Inline processing of topic signals with 1 messages took 0 ms
+I, [2021-05-26T19:33:54.120386 #64443]  INFO -- : Inline processing of topic signals with 1 messages took 0 ms
+I, [2021-05-26T19:33:54.120605 #64443]  INFO -- : Inline processing of topic signals with 1 messages took 0 ms
+I, [2021-05-26T19:33:54.120934 #64443]  INFO -- : Inline processing of topic signals with 1 messages took 0 ms
+I, [2021-05-26T19:33:54.121222 #64443]  INFO -- : Inline processing of topic signals with 1 messages took 0 ms
+I, [2021-05-26T19:33:54.121565 #64443]  INFO -- : Inline processing of topic signals with 1 messages took 0 ms
+I, [2021-05-26T19:33:54.121764 #64443]  INFO -- : Inline processing of topic signals with 1 messages took 0 ms
+I, [2021-05-26T19:33:54.121937 #64443]  INFO -- : Inline processing of topic signals with 1 messages took 0 ms
+I, [2021-05-26T19:33:54.122248 #64443]  INFO -- : Inline processing of topic signals with 1 messages took 1 ms
+I, [2021-05-26T19:33:54.122432 #64443]  INFO -- : Inline processing of topic signals with 1 messages took 0 ms
+I, [2021-05-26T19:33:54.122652 #64443]  INFO -- : Inline processing of topic signals with 1 messages took 0 ms
+I, [2021-05-26T19:33:54.122861 #64443]  INFO -- : Inline processing of topic signals with 1 messages took 0 ms
+I, [2021-05-26T19:33:54.123037 #64443]  INFO -- : Inline processing of topic signals with 1 messages took 0 ms
+I, [2021-05-26T19:33:54.123265 #64443]  INFO -- : Inline processing of topic signals with 1 messages took 1 ms
+I, [2021-05-26T19:33:54.123505 #64443]  INFO -- : Inline processing of topic signals with 1 messages took 0 ms
+I, [2021-05-26T19:33:54.123728 #64443]  INFO -- : Inline processing of topic signals with 1 messages took 0 ms
+I, [2021-05-26T19:33:54.124099 #64443]  INFO -- : Inline processing of topic signals with 1 messages took 0 ms
+I, [2021-05-26T19:33:54.124307 #64443]  INFO -- : Inline processing of topic signals with 1 messages took 0 ms
+I, [2021-05-26T19:33:54.124638 #64443]  INFO -- : Inline processing of topic signals with 1 messages took 0 ms
+I, [2021-05-26T19:33:54.125011 #64443]  INFO -- : Inline processing of topic signals with 1 messages took 0 ms
+I, [2021-05-26T19:33:54.125281 #64443]  INFO -- : Inline processing of topic signals with 1 messages took 0 ms
+I, [2021-05-26T19:33:54.125516 #64443]  INFO -- : Inline processing of topic signals with 1 messages took 0 ms
+I, [2021-05-26T19:33:54.125696 #64443]  INFO -- : Inline processing of topic signals with 1 messages took 0 ms
+I, [2021-05-26T19:33:54.125870 #64443]  INFO -- : Inline processing of topic signals with 1 messages took 0 ms
+I, [2021-05-26T19:33:54.126067 #64443]  INFO -- : Inline processing of topic signals with 1 messages took 0 ms
+I, [2021-05-26T19:33:54.126893 #64443]  INFO -- : Inline processing of topic signals with 1 messages took 0 ms
+I, [2021-05-26T19:33:54.127150 #64443]  INFO -- : Inline processing of topic signals with 1 messages took 1 ms
+I, [2021-05-26T19:33:54.127316 #64443]  INFO -- : Inline processing of topic signals with 1 messages took 0 ms
+I, [2021-05-26T19:33:54.127607 #64443]  INFO -- : Inline processing of topic signals with 1 messages took 0 ms
+I, [2021-05-26T19:33:54.127991 #64443]  INFO -- : Inline processing of topic signals with 1 messages took 0 ms
+I, [2021-05-26T19:33:54.128395 #64443]  INFO -- : Inline processing of topic signals with 1 messages took 0 ms
+I, [2021-05-26T19:33:54.128588 #64443]  INFO -- : Inline processing of topic signals with 1 messages took 0 ms
+I, [2021-05-26T19:33:54.128730 #64443]  INFO -- : Inline processing of topic signals with 1 messages took 0 ms
+I, [2021-05-26T19:33:54.130108 #64443]  INFO -- : Inline processing of topic signals with 1 messages took 1 ms
+I, [2021-05-26T19:33:54.130601 #64443]  INFO -- : Inline processing of topic signals with 1 messages took 0 ms
+I, [2021-05-26T19:33:54.130863 #64443]  INFO -- : Inline processing of topic signals with 1 messages took 0 ms
+I, [2021-05-26T19:33:54.131475 #64443]  INFO -- : Inline processing of topic signals with 1 messages took 1 ms
+I, [2021-05-26T19:33:54.133615 #64443]  INFO -- : Inline processing of topic signals with 1 messages took 0 ms
+I, [2021-05-26T19:33:54.134065 #64443]  INFO -- : Inline processing of topic signals with 1 messages took 0 ms
+I, [2021-05-26T19:33:54.134212 #64443]  INFO -- : Inline processing of topic signals with 1 messages took 0 ms
+I, [2021-05-26T19:33:54.134462 #64443]  INFO -- : Inline processing of topic signals with 1 messages took 0 ms
+I, [2021-05-26T19:33:54.134693 #64443]  INFO -- : Inline processing of topic signals with 1 messages took 0 ms
+I, [2021-05-26T19:33:54.134850 #64443]  INFO -- : Inline processing of topic signals with 1 messages took 0 ms
+I, [2021-05-26T19:33:54.135256 #64443]  INFO -- : Inline processing of topic signals with 1 messages took 1 ms
+I, [2021-05-26T19:33:54.135704 #64443]  INFO -- : Inline processing of topic signals with 1 messages took 0 ms
+I, [2021-05-26T19:33:54.136017 #64443]  INFO -- : Inline processing of topic signals with 1 messages took 0 ms
+I, [2021-05-26T19:33:54.136266 #64443]  INFO -- : Inline processing of topic signals with 1 messages took 1 ms
+I, [2021-05-26T19:33:54.136608 #64443]  INFO -- : Inline processing of topic signals with 1 messages took 0 ms
+I, [2021-05-26T19:33:54.136850 #64443]  INFO -- : Inline processing of topic signals with 1 messages took 0 ms
+I, [2021-05-26T19:33:54.137027 #64443]  INFO -- : Inline processing of topic signals with 1 messages took 0 ms
+I, [2021-05-26T19:33:54.137192 #64443]  INFO -- : Inline processing of topic signals with 1 messages took 1 ms
+I, [2021-05-26T19:33:54.137784 #64443]  INFO -- : Inline processing of topic signals with 1 messages took 0 ms
+I, [2021-05-26T19:33:54.138079 #64443]  INFO -- : Inline processing of topic signals with 1 messages took 0 ms
+I, [2021-05-26T19:33:54.138261 #64443]  INFO -- : Inline processing of topic signals with 1 messages took 0 ms
+I, [2021-05-26T19:33:54.138474 #64443]  INFO -- : Inline processing of topic signals with 1 messages took 0 ms
+I, [2021-05-26T19:33:54.138756 #64443]  INFO -- : Inline processing of topic signals with 1 messages took 0 ms
+I, [2021-05-26T19:33:54.139306 #64443]  INFO -- : Inline processing of topic signals with 1 messages took 1 ms
+I, [2021-05-26T19:33:54.139705 #64443]  INFO -- : Inline processing of topic signals with 1 messages took 0 ms
+I, [2021-05-26T19:33:54.140207 #64443]  INFO -- : Inline processing of topic signals with 1 messages took 1 ms
+I, [2021-05-26T19:33:54.140673 #64443]  INFO -- : Inline processing of topic signals with 1 messages took 0 ms
+I, [2021-05-26T19:33:54.140946 #64443]  INFO -- : Inline processing of topic signals with 1 messages took 0 ms
+I, [2021-05-26T19:33:54.141592 #64443]  INFO -- : Inline processing of topic signals with 1 messages took 0 ms
+I, [2021-05-26T19:33:54.141775 #64443]  INFO -- : Inline processing of topic signals with 1 messages took 0 ms
+I, [2021-05-26T19:33:54.142070 #64443]  INFO -- : Inline processing of topic signals with 1 messages took 0 ms
+I, [2021-05-26T19:33:54.142562 #64443]  INFO -- : Inline processing of topic signals with 1 messages took 0 ms
+I, [2021-05-26T19:33:54.143317 #64443]  INFO -- : Inline processing of topic signals with 1 messages took 1 ms
+I, [2021-05-26T19:33:54.143724 #64443]  INFO -- : Inline processing of topic signals with 1 messages took 0 ms
+I, [2021-05-26T19:33:54.144098 #64443]  INFO -- : Inline processing of topic signals with 1 messages took 0 ms
+I, [2021-05-26T19:33:54.144364 #64443]  INFO -- : Inline processing of topic signals with 1 messages took 0 ms
+I, [2021-05-26T19:33:54.144515 #64443]  INFO -- : Inline processing of topic signals with 1 messages took 0 ms
+I, [2021-05-26T19:33:54.145187 #64443]  INFO -- : Inline processing of topic signals with 1 messages took 0 ms
+I, [2021-05-26T19:33:54.145521 #64443]  INFO -- : Inline processing of topic signals with 1 messages took 0 ms
+I, [2021-05-26T19:33:54.145876 #64443]  INFO -- : Inline processing of topic signals with 1 messages took 0 ms
+I, [2021-05-26T19:33:54.146416 #64443]  INFO -- : Inline processing of topic signals with 1 messages took 1 ms
+I, [2021-05-26T19:33:54.146946 #64443]  INFO -- : Inline processing of topic signals with 1 messages took 0 ms
+I, [2021-05-26T19:33:54.147399 #64443]  INFO -- : Inline processing of topic signals with 1 messages took 1 ms
+I, [2021-05-26T19:33:54.147853 #64443]  INFO -- : Inline processing of topic signals with 1 messages took 0 ms
+I, [2021-05-26T19:33:54.149142 #64443]  INFO -- : Inline processing of topic signals with 1 messages took 1 ms
+I, [2021-05-26T19:33:54.149394 #64443]  INFO -- : Inline processing of topic signals with 1 messages took 0 ms
+I, [2021-05-26T19:33:54.149706 #64443]  INFO -- : Inline processing of topic signals with 1 messages took 0 ms
+I, [2021-05-26T19:33:54.149901 #64443]  INFO -- : Inline processing of topic signals with 1 messages took 0 ms
+I, [2021-05-26T19:33:54.150103 #64443]  INFO -- : Inline processing of topic signals with 1 messages took 0 ms
+I, [2021-05-26T19:33:54.150284 #64443]  INFO -- : Inline processing of topic signals with 1 messages took 0 ms
+I, [2021-05-26T19:33:54.150476 #64443]  INFO -- : Inline processing of topic signals with 1 messages took 0 ms
+I, [2021-05-26T19:33:54.150806 #64443]  INFO -- : Inline processing of topic signals with 1 messages took 0 ms
+I, [2021-05-26T19:33:54.151095 #64443]  INFO -- : Inline processing of topic signals with 1 messages took 0 ms
+I, [2021-05-26T19:33:54.151347 #64443]  INFO -- : Inline processing of topic signals with 1 messages took 0 ms
+I, [2021-05-26T19:33:54.151525 #64443]  INFO -- : Inline processing of topic signals with 1 messages took 0 ms
+I, [2021-05-26T19:33:54.151733 #64443]  INFO -- : Inline processing of topic signals with 1 messages took 0 ms
+I, [2021-05-26T19:33:54.151936 #64443]  INFO -- : Inline processing of topic signals with 1 messages took 0 ms
+I, [2021-05-26T19:33:54.152088 #64443]  INFO -- : Inline processing of topic signals with 1 messages took 0 ms
+I, [2021-05-26T19:33:54.152380 #64443]  INFO -- : Inline processing of topic signals with 1 messages took 0 ms
+I, [2021-05-26T19:33:54.152540 #64443]  INFO -- : Inline processing of topic signals with 1 messages took 0 ms
+I, [2021-05-26T19:33:54.152691 #64443]  INFO -- : Inline processing of topic signals with 1 messages took 0 ms
+I, [2021-05-26T19:33:54.152894 #64443]  INFO -- : Inline processing of topic signals with 1 messages took 0 ms
+I, [2021-05-26T19:33:54.153075 #64443]  INFO -- : Inline processing of topic signals with 1 messages took 0 ms
+I, [2021-05-26T19:33:54.153219 #64443]  INFO -- : Inline processing of topic signals with 1 messages took 0 ms
+I, [2021-05-26T19:33:54.153385 #64443]  INFO -- : Inline processing of topic signals with 1 messages took 0 ms
+I, [2021-05-26T19:33:54.153551 #64443]  INFO -- : Inline processing of topic signals with 1 messages took 0 ms
+I, [2021-05-26T19:33:54.153695 #64443]  INFO -- : Inline processing of topic signals with 1 messages took 0 ms
+I, [2021-05-26T19:33:54.153865 #64443]  INFO -- : Inline processing of topic signals with 1 messages took 0 ms
+I, [2021-05-26T19:33:54.154006 #64443]  INFO -- : Inline processing of topic signals with 1 messages took 0 ms
+I, [2021-05-26T19:33:54.154158 #64443]  INFO -- : Inline processing of topic signals with 1 messages took 1 ms
+I, [2021-05-26T19:33:54.154352 #64443]  INFO -- : Inline processing of topic signals with 1 messages took 0 ms
+I, [2021-05-26T19:33:54.154478 #64443]  INFO -- : Inline processing of topic signals with 1 messages took 0 ms
+I, [2021-05-26T19:33:54.154619 #64443]  INFO -- : Inline processing of topic signals with 1 messages took 0 ms
+I, [2021-05-26T19:33:54.154780 #64443]  INFO -- : Inline processing of topic signals with 1 messages took 0 ms
+I, [2021-05-26T19:33:54.154962 #64443]  INFO -- : Inline processing of topic signals with 1 messages took 0 ms
+I, [2021-05-26T19:33:54.155178 #64443]  INFO -- : Inline processing of topic signals with 1 messages took 1 ms
+I, [2021-05-26T19:33:54.155301 #64443]  INFO -- : Inline processing of topic signals with 1 messages took 0 ms
+I, [2021-05-26T19:33:54.155502 #64443]  INFO -- : Inline processing of topic signals with 1 messages took 0 ms
+I, [2021-05-26T19:33:54.155759 #64443]  INFO -- : Inline processing of topic signals with 1 messages took 0 ms
+I, [2021-05-26T19:33:54.155923 #64443]  INFO -- : Inline processing of topic signals with 1 messages took 0 ms
+I, [2021-05-26T19:33:54.156089 #64443]  INFO -- : Inline processing of topic signals with 1 messages took 0 ms
+I, [2021-05-26T19:33:54.156230 #64443]  INFO -- : Inline processing of topic signals with 1 messages took 0 ms
+I, [2021-05-26T19:33:54.156425 #64443]  INFO -- : Inline processing of topic signals with 1 messages took 0 ms
+I, [2021-05-26T19:33:54.156629 #64443]  INFO -- : Inline processing of topic signals with 1 messages took 0 ms
+I, [2021-05-26T19:33:54.156815 #64443]  INFO -- : Inline processing of topic signals with 1 messages took 0 ms
+I, [2021-05-26T19:33:54.156971 #64443]  INFO -- : Inline processing of topic signals with 1 messages took 0 ms
+I, [2021-05-26T19:33:54.157149 #64443]  INFO -- : Inline processing of topic signals with 1 messages took 1 ms
+I, [2021-05-26T19:33:54.157297 #64443]  INFO -- : Inline processing of topic signals with 1 messages took 0 ms
+I, [2021-05-26T19:33:54.157425 #64443]  INFO -- : Inline processing of topic signals with 1 messages took 0 ms
+I, [2021-05-26T19:33:54.157568 #64443]  INFO -- : Inline processing of topic signals with 1 messages took 0 ms
+I, [2021-05-26T19:33:54.157721 #64443]  INFO -- : Inline processing of topic signals with 1 messages took 0 ms
+I, [2021-05-26T19:33:54.157843 #64443]  INFO -- : Inline processing of topic signals with 1 messages took 0 ms
+I, [2021-05-26T19:33:54.158014 #64443]  INFO -- : Inline processing of topic signals with 1 messages took 0 ms
+I, [2021-05-26T19:33:54.158184 #64443]  INFO -- : Inline processing of topic signals with 1 messages took 1 ms
+I, [2021-05-26T19:33:54.158305 #64443]  INFO -- : Inline processing of topic signals with 1 messages took 0 ms
+I, [2021-05-26T19:33:54.158421 #64443]  INFO -- : Inline processing of topic signals with 1 messages took 0 ms
+I, [2021-05-26T19:33:54.158567 #64443]  INFO -- : Inline processing of topic signals with 1 messages took 0 ms
+I, [2021-05-26T19:33:54.158784 #64443]  INFO -- : Inline processing of topic signals with 1 messages took 0 ms
+I, [2021-05-26T19:33:54.158909 #64443]  INFO -- : Inline processing of topic signals with 1 messages took 0 ms
+I, [2021-05-26T19:33:54.159118 #64443]  INFO -- : Inline processing of topic signals with 1 messages took 0 ms
+I, [2021-05-26T19:33:54.159487 #64443]  INFO -- : Inline processing of topic signals with 1 messages took 0 ms
+I, [2021-05-26T19:33:54.161056 #64443]  INFO -- : Inline processing of topic signals with 1 messages took 1 ms
+I, [2021-05-26T19:33:54.161139 #64443]  INFO -- : 150 messages on signals topic delegated to SignalsConsumer
+I, [2021-05-26T19:34:28.128386 #64443]  INFO -- : Received SIGINT system signal
+I, [2021-05-26T19:34:28.128710 #64443]  INFO -- : Stopping Karafka server 64443
+I, [2021-05-26T19:34:29.185348 #64443]  INFO -- : [notification_service_topic_group] {signals: 0}: Fetcher thread exited.
+I, [2021-05-26T19:34:29.185441 #64443]  INFO -- : [[notification_service_topic_group] {}:] Disconnecting broker 1
+I, [2021-05-26T19:34:29.192567 #64443]  INFO -- : [[notification_service_topic_group] {}:] Leaving group `notification_service_topic_group`
+I, [2021-05-26T19:34:30.829900 #64872]  INFO -- : Initializing Karafka server 64872
+I, [2021-05-26T19:34:30.900009 #64872]  INFO -- : Running Karafka server 64872
+I, [2021-05-26T19:34:30.900829 #64872]  INFO -- : New topics added to target list: signals
+I, [2021-05-26T19:34:30.900896 #64872]  INFO -- : Fetching cluster metadata from kafka://192.168.1.72:9092
+I, [2021-05-26T19:34:30.905546 #64872]  INFO -- : Discovered cluster metadata; nodes: localhost:9092 (node_id=1)
+I, [2021-05-26T19:34:30.905807 #64872]  INFO -- : [[notification_service_topic_group] {}:] Joining group `notification_service_topic_group`
+I, [2021-05-26T19:34:30.905950 #64872]  INFO -- : [[notification_service_topic_group] {}:] Will fetch at most 1048576 bytes at a time per partition from signals
+I, [2021-05-26T19:34:30.906199 #64872]  INFO -- : [[notification_service_topic_group] {}:] Fetching cluster metadata from kafka://192.168.1.72:9092
+I, [2021-05-26T19:34:30.911888 #64872]  INFO -- : [[notification_service_topic_group] {}:] Discovered cluster metadata; nodes: localhost:9092 (node_id=1)
+I, [2021-05-26T19:34:30.912055 #64872]  INFO -- : [[notification_service_topic_group] {}:] There are no partitions to fetch from, sleeping for 1s
+I, [2021-05-26T19:34:30.926543 #64872]  INFO -- : [[notification_service_topic_group] {}:] Joined group `notification_service_topic_group` with member id `notification_service-538df67e-c5bd-4e12-b499-bc127830dc6d`
+I, [2021-05-26T19:34:30.926653 #64872]  INFO -- : [[notification_service_topic_group] {}:] Chosen as leader of group `notification_service_topic_group`
+I, [2021-05-26T19:34:30.930586 #64872]  INFO -- : [[notification_service_topic_group] {}:] Partitions assigned for `signals`: 0
+I, [2021-05-26T19:34:31.913496 #64872]  INFO -- : [[notification_service_topic_group] {signals: 0}:] Seeking signals/0 to offset 150
+I, [2021-05-26T19:34:31.913660 #64872]  INFO -- : [[notification_service_topic_group] {signals: 0}:] New topics added to target list: signals
+I, [2021-05-26T19:34:31.913724 #64872]  INFO -- : [[notification_service_topic_group] {signals: 0}:] Fetching cluster metadata from kafka://192.168.1.72:9092
+I, [2021-05-26T19:34:31.921930 #64872]  INFO -- : [[notification_service_topic_group] {signals: 0}:] Discovered cluster metadata; nodes: localhost:9092 (node_id=1)
+W, [2021-05-26T19:34:33.859301 #64872]  WARN -- : [[notification_service_topic_group] {signals: 0}:] Reached max fetcher queue size (10), sleeping 1s
+W, [2021-05-26T19:34:34.860528 #64872]  WARN -- : [[notification_service_topic_group] {signals: 0}:] Reached max fetcher queue size (10), sleeping 1s
+I, [2021-05-26T19:34:34.945659 #64872]  INFO -- : Inline processing of topic signals with 1 messages took 7 ms
+I, [2021-05-26T19:34:34.945735 #64872]  INFO -- : 1 messages on signals topic delegated to SignalsConsumer
+I, [2021-05-26T19:34:34.946650 #64872]  INFO -- : Inline processing of topic signals with 1 messages took 1 ms
+I, [2021-05-26T19:34:34.946757 #64872]  INFO -- : 1 messages on signals topic delegated to SignalsConsumer
+I, [2021-05-26T19:34:34.947476 #64872]  INFO -- : Inline processing of topic signals with 1 messages took 1 ms
+I, [2021-05-26T19:34:34.947514 #64872]  INFO -- : 1 messages on signals topic delegated to SignalsConsumer
+I, [2021-05-26T19:34:34.948447 #64872]  INFO -- : Inline processing of topic signals with 1 messages took 1 ms
+I, [2021-05-26T19:34:34.948489 #64872]  INFO -- : 1 messages on signals topic delegated to SignalsConsumer
+I, [2021-05-26T19:34:34.949200 #64872]  INFO -- : Inline processing of topic signals with 1 messages took 1 ms
+I, [2021-05-26T19:34:34.949235 #64872]  INFO -- : 1 messages on signals topic delegated to SignalsConsumer
+I, [2021-05-26T19:34:34.949946 #64872]  INFO -- : Inline processing of topic signals with 1 messages took 0 ms
+I, [2021-05-26T19:34:34.949981 #64872]  INFO -- : 1 messages on signals topic delegated to SignalsConsumer
+I, [2021-05-26T19:34:34.950600 #64872]  INFO -- : Inline processing of topic signals with 1 messages took 1 ms
+I, [2021-05-26T19:34:34.950636 #64872]  INFO -- : 1 messages on signals topic delegated to SignalsConsumer
+I, [2021-05-26T19:34:34.951317 #64872]  INFO -- : Inline processing of topic signals with 1 messages took 1 ms
+I, [2021-05-26T19:34:34.951352 #64872]  INFO -- : 1 messages on signals topic delegated to SignalsConsumer
+I, [2021-05-26T19:34:34.952025 #64872]  INFO -- : Inline processing of topic signals with 1 messages took 0 ms
+I, [2021-05-26T19:34:34.952059 #64872]  INFO -- : 1 messages on signals topic delegated to SignalsConsumer
+I, [2021-05-26T19:34:34.952710 #64872]  INFO -- : Inline processing of topic signals with 1 messages took 0 ms
+I, [2021-05-26T19:34:34.952748 #64872]  INFO -- : 1 messages on signals topic delegated to SignalsConsumer
+I, [2021-05-26T19:34:36.955461 #64872]  INFO -- : Inline processing of topic signals with 1 messages took 1 ms
+I, [2021-05-26T19:34:36.956918 #64872]  INFO -- : Inline processing of topic signals with 1 messages took 1 ms
+I, [2021-05-26T19:34:36.957912 #64872]  INFO -- : Inline processing of topic signals with 1 messages took 1 ms
+I, [2021-05-26T19:34:36.958641 #64872]  INFO -- : Inline processing of topic signals with 1 messages took 1 ms
+I, [2021-05-26T19:34:36.959730 #64872]  INFO -- : Inline processing of topic signals with 1 messages took 1 ms
+I, [2021-05-26T19:34:36.961240 #64872]  INFO -- : Inline processing of topic signals with 1 messages took 2 ms
+I, [2021-05-26T19:34:36.962370 #64872]  INFO -- : Inline processing of topic signals with 1 messages took 1 ms
+I, [2021-05-26T19:34:36.963815 #64872]  INFO -- : Inline processing of topic signals with 1 messages took 1 ms
+I, [2021-05-26T19:34:36.964850 #64872]  INFO -- : Inline processing of topic signals with 1 messages took 1 ms
+I, [2021-05-26T19:34:36.966317 #64872]  INFO -- : Inline processing of topic signals with 1 messages took 2 ms
+I, [2021-05-26T19:34:36.967474 #64872]  INFO -- : Inline processing of topic signals with 1 messages took 1 ms
+I, [2021-05-26T19:34:36.968062 #64872]  INFO -- : Inline processing of topic signals with 1 messages took 0 ms
+I, [2021-05-26T19:34:36.968877 #64872]  INFO -- : Inline processing of topic signals with 1 messages took 1 ms
+I, [2021-05-26T19:34:36.969510 #64872]  INFO -- : Inline processing of topic signals with 1 messages took 1 ms
+I, [2021-05-26T19:34:36.970194 #64872]  INFO -- : Inline processing of topic signals with 1 messages took 1 ms
+I, [2021-05-26T19:34:36.970823 #64872]  INFO -- : Inline processing of topic signals with 1 messages took 0 ms
+I, [2021-05-26T19:34:36.971511 #64872]  INFO -- : Inline processing of topic signals with 1 messages took 1 ms
+I, [2021-05-26T19:34:36.972383 #64872]  INFO -- : Inline processing of topic signals with 1 messages took 1 ms
+I, [2021-05-26T19:34:36.973033 #64872]  INFO -- : Inline processing of topic signals with 1 messages took 0 ms
+I, [2021-05-26T19:34:36.973674 #64872]  INFO -- : Inline processing of topic signals with 1 messages took 1 ms
+I, [2021-05-26T19:34:36.974287 #64872]  INFO -- : Inline processing of topic signals with 1 messages took 1 ms
+I, [2021-05-26T19:34:36.974924 #64872]  INFO -- : Inline processing of topic signals with 1 messages took 0 ms
+I, [2021-05-26T19:34:36.975564 #64872]  INFO -- : Inline processing of topic signals with 1 messages took 1 ms
+I, [2021-05-26T19:34:36.976242 #64872]  INFO -- : Inline processing of topic signals with 1 messages took 1 ms
+I, [2021-05-26T19:34:36.976927 #64872]  INFO -- : Inline processing of topic signals with 1 messages took 0 ms
+I, [2021-05-26T19:34:36.977564 #64872]  INFO -- : Inline processing of topic signals with 1 messages took 1 ms
+I, [2021-05-26T19:34:36.978127 #64872]  INFO -- : Inline processing of topic signals with 1 messages took 1 ms
+I, [2021-05-26T19:34:36.978761 #64872]  INFO -- : Inline processing of topic signals with 1 messages took 0 ms
+I, [2021-05-26T19:34:36.979376 #64872]  INFO -- : Inline processing of topic signals with 1 messages took 1 ms
+I, [2021-05-26T19:34:36.979998 #64872]  INFO -- : Inline processing of topic signals with 1 messages took 0 ms
+I, [2021-05-26T19:34:36.980695 #64872]  INFO -- : Inline processing of topic signals with 1 messages took 1 ms
+I, [2021-05-26T19:34:36.981545 #64872]  INFO -- : Inline processing of topic signals with 1 messages took 1 ms
+I, [2021-05-26T19:34:36.982179 #64872]  INFO -- : Inline processing of topic signals with 1 messages took 1 ms
+I, [2021-05-26T19:34:36.982943 #64872]  INFO -- : Inline processing of topic signals with 1 messages took 0 ms
+I, [2021-05-26T19:34:36.983545 #64872]  INFO -- : Inline processing of topic signals with 1 messages took 1 ms
+I, [2021-05-26T19:34:36.984131 #64872]  INFO -- : Inline processing of topic signals with 1 messages took 1 ms
+I, [2021-05-26T19:34:36.984759 #64872]  INFO -- : Inline processing of topic signals with 1 messages took 0 ms
+I, [2021-05-26T19:34:36.986911 #64872]  INFO -- : Inline processing of topic signals with 1 messages took 2 ms
+I, [2021-05-26T19:34:36.987591 #64872]  INFO -- : Inline processing of topic signals with 1 messages took 1 ms
+I, [2021-05-26T19:34:36.988164 #64872]  INFO -- : Inline processing of topic signals with 1 messages took 1 ms
+I, [2021-05-26T19:34:36.988216 #64872]  INFO -- : 40 messages on signals topic delegated to SignalsConsumer
+I, [2021-05-26T19:34:58.615899 #64872]  INFO -- : Received SIGINT system signal
+I, [2021-05-26T19:34:58.616093 #64872]  INFO -- : Stopping Karafka server 64872
+I, [2021-05-26T19:34:59.971121 #64872]  INFO -- : [notification_service_topic_group] {signals: 0}: Fetcher thread exited.
+I, [2021-05-26T19:34:59.971210 #64872]  INFO -- : [[notification_service_topic_group] {}:] Disconnecting broker 1
+I, [2021-05-26T19:34:59.982607 #64872]  INFO -- : [[notification_service_topic_group] {}:] Leaving group `notification_service_topic_group`
+I, [2021-05-26T19:35:01.914099 #65244]  INFO -- : Initializing Karafka server 65244
+I, [2021-05-26T19:35:01.962119 #65244]  INFO -- : Running Karafka server 65244
+I, [2021-05-26T19:35:01.962820 #65244]  INFO -- : New topics added to target list: signals
+I, [2021-05-26T19:35:01.962872 #65244]  INFO -- : Fetching cluster metadata from kafka://192.168.1.72:9092
+I, [2021-05-26T19:35:01.967323 #65244]  INFO -- : Discovered cluster metadata; nodes: localhost:9092 (node_id=1)
+I, [2021-05-26T19:35:01.967597 #65244]  INFO -- : [[notification_service_topic_group] {}:] Joining group `notification_service_topic_group`
+I, [2021-05-26T19:35:01.967718 #65244]  INFO -- : [[notification_service_topic_group] {}:] Will fetch at most 1048576 bytes at a time per partition from signals
+I, [2021-05-26T19:35:01.967992 #65244]  INFO -- : [[notification_service_topic_group] {}:] Fetching cluster metadata from kafka://192.168.1.72:9092
+I, [2021-05-26T19:35:01.973084 #65244]  INFO -- : [[notification_service_topic_group] {}:] Discovered cluster metadata; nodes: localhost:9092 (node_id=1)
+I, [2021-05-26T19:35:01.973250 #65244]  INFO -- : [[notification_service_topic_group] {}:] There are no partitions to fetch from, sleeping for 1s
+I, [2021-05-26T19:35:01.982233 #65244]  INFO -- : [[notification_service_topic_group] {}:] Joined group `notification_service_topic_group` with member id `notification_service-3abecf9c-a109-4df8-a8a2-31234a2ebb12`
+I, [2021-05-26T19:35:01.982422 #65244]  INFO -- : [[notification_service_topic_group] {}:] Chosen as leader of group `notification_service_topic_group`
+I, [2021-05-26T19:35:01.986805 #65244]  INFO -- : [[notification_service_topic_group] {}:] Partitions assigned for `signals`: 0
+I, [2021-05-26T19:35:02.977617 #65244]  INFO -- : [[notification_service_topic_group] {signals: 0}:] Seeking signals/0 to offset 200
+I, [2021-05-26T19:35:02.977794 #65244]  INFO -- : [[notification_service_topic_group] {signals: 0}:] New topics added to target list: signals
+I, [2021-05-26T19:35:02.977874 #65244]  INFO -- : [[notification_service_topic_group] {signals: 0}:] Fetching cluster metadata from kafka://192.168.1.72:9092
+I, [2021-05-26T19:35:02.985456 #65244]  INFO -- : [[notification_service_topic_group] {signals: 0}:] Discovered cluster metadata; nodes: localhost:9092 (node_id=1)
+W, [2021-05-26T19:35:52.740327 #65244]  WARN -- : [[notification_service_topic_group] {signals: 0}:] Reached max fetcher queue size (10), sleeping 1s
+W, [2021-05-26T19:35:53.743860 #65244]  WARN -- : [[notification_service_topic_group] {signals: 0}:] Reached max fetcher queue size (10), sleeping 1s
+E, [2021-05-26T19:35:54.063542 #65244] ERROR -- : [[notification_service_topic_group] {}:] Exception raised when processing signals/0 in offset range 200..200 -- NoMethodError: undefined method `params_array' for #<Karafka::Params::ParamsBatch:0x00007fda874df238>
+/Users/anton/work/repositories/3commas-kafka-example/service-consumer/app/consumers/signals_consumer.rb:5:in `consume'
+/Users/anton/.rvm/gems/ruby-2.7.0/gems/karafka-1.3.3/lib/karafka/backends/inline.rb:12:in `block in process'
+/Users/anton/.rvm/gems/ruby-2.7.0/gems/dry-monitor-0.3.1/lib/dry/monitor/notifications.rb:43:in `block in instrument'
+/Users/anton/.rvm/gems/ruby-2.7.0/gems/dry-monitor-0.3.1/lib/dry/monitor/notifications.rb:11:in `measure'
+/Users/anton/.rvm/gems/ruby-2.7.0/gems/dry-monitor-0.3.1/lib/dry/monitor/notifications.rb:43:in `instrument'
+/Users/anton/.rvm/gems/ruby-2.7.0/gems/karafka-1.3.3/lib/karafka/backends/inline.rb:12:in `process'
+/Users/anton/.rvm/gems/ruby-2.7.0/gems/karafka-1.3.3/lib/karafka/base_consumer.rb:38:in `call'
+/Users/anton/.rvm/gems/ruby-2.7.0/gems/karafka-1.3.3/lib/karafka/connection/batch_delegator.rb:43:in `block (2 levels) in call'
+/Users/anton/.rvm/gems/ruby-2.7.0/gems/karafka-1.3.3/lib/karafka/connection/batch_delegator.rb:38:in `each'
+/Users/anton/.rvm/gems/ruby-2.7.0/gems/karafka-1.3.3/lib/karafka/connection/batch_delegator.rb:38:in `block in call'
+/Users/anton/.rvm/gems/ruby-2.7.0/gems/dry-monitor-0.3.1/lib/dry/monitor/notifications.rb:43:in `block in instrument'
+/Users/anton/.rvm/gems/ruby-2.7.0/gems/dry-monitor-0.3.1/lib/dry/monitor/notifications.rb:11:in `measure'
+/Users/anton/.rvm/gems/ruby-2.7.0/gems/dry-monitor-0.3.1/lib/dry/monitor/notifications.rb:43:in `instrument'
+/Users/anton/.rvm/gems/ruby-2.7.0/gems/karafka-1.3.3/lib/karafka/connection/batch_delegator.rb:18:in `call'
+/Users/anton/.rvm/gems/ruby-2.7.0/gems/karafka-1.3.3/lib/karafka/connection/listener.rb:46:in `block in fetch_loop'
+/Users/anton/.rvm/gems/ruby-2.7.0/gems/karafka-1.3.3/lib/karafka/connection/client.rb:36:in `block in fetch_loop'
+/Users/anton/.rvm/gems/ruby-2.7.0/gems/ruby-kafka-0.7.10/lib/kafka/consumer.rb:322:in `block (3 levels) in each_batch'
+/Users/anton/.rvm/gems/ruby-2.7.0/gems/ruby-kafka-0.7.10/lib/kafka/instrumenter.rb:23:in `instrument'
+/Users/anton/.rvm/gems/ruby-2.7.0/gems/ruby-kafka-0.7.10/lib/kafka/instrumenter.rb:35:in `instrument'
+/Users/anton/.rvm/gems/ruby-2.7.0/gems/ruby-kafka-0.7.10/lib/kafka/consumer.rb:320:in `block (2 levels) in each_batch'
+/Users/anton/.rvm/gems/ruby-2.7.0/gems/ruby-kafka-0.7.10/lib/kafka/consumer.rb:302:in `each'
+/Users/anton/.rvm/gems/ruby-2.7.0/gems/ruby-kafka-0.7.10/lib/kafka/consumer.rb:302:in `block in each_batch'
+/Users/anton/.rvm/gems/ruby-2.7.0/gems/karafka-1.3.3/lib/karafka/patches/ruby_kafka.rb:28:in `block in consumer_loop'
+/Users/anton/.rvm/gems/ruby-2.7.0/gems/ruby-kafka-0.7.10/lib/kafka/consumer.rb:404:in `block in consumer_loop'
+/Users/anton/.rvm/gems/ruby-2.7.0/gems/ruby-kafka-0.7.10/lib/kafka/instrumenter.rb:23:in `instrument'
+/Users/anton/.rvm/gems/ruby-2.7.0/gems/ruby-kafka-0.7.10/lib/kafka/instrumenter.rb:35:in `instrument'
+/Users/anton/.rvm/gems/ruby-2.7.0/gems/ruby-kafka-0.7.10/lib/kafka/consumer.rb:403:in `consumer_loop'
+/Users/anton/.rvm/gems/ruby-2.7.0/gems/karafka-1.3.3/lib/karafka/patches/ruby_kafka.rb:16:in `consumer_loop'
+/Users/anton/.rvm/gems/ruby-2.7.0/gems/ruby-kafka-0.7.10/lib/kafka/consumer.rb:299:in `each_batch'
+/Users/anton/.rvm/gems/ruby-2.7.0/gems/karafka-1.3.3/lib/karafka/connection/client.rb:36:in `fetch_loop'
+/Users/anton/.rvm/gems/ruby-2.7.0/gems/karafka-1.3.3/lib/karafka/connection/listener.rb:39:in `fetch_loop'
+/Users/anton/.rvm/gems/ruby-2.7.0/gems/karafka-1.3.3/lib/karafka/connection/listener.rb:24:in `call'
+/Users/anton/.rvm/gems/ruby-2.7.0/gems/karafka-1.3.3/lib/karafka/fetcher.rb:18:in `block (2 levels) in call'
+I, [2021-05-26T19:35:54.746608 #65244]  INFO -- : [notification_service_topic_group] {signals: 0}: Fetcher thread exited.
+I, [2021-05-26T19:35:54.746718 #65244]  INFO -- : [[notification_service_topic_group] {}:] Leaving group `notification_service_topic_group`
+E, [2021-05-26T19:35:54.753331 #65244] ERROR -- : Client fetch loop error: undefined method `params_array' for #<Karafka::Params::ParamsBatch:0x00007fda874df238>
+I, [2021-05-26T19:35:54.753798 #65244]  INFO -- : [[notification_service_topic_group] {signals: 0}:] Joining group `notification_service_topic_group`
+I, [2021-05-26T19:35:54.754002 #65244]  INFO -- : [[notification_service_topic_group] {signals: 0}:] There are no partitions to fetch from, sleeping for 1s
+E, [2021-05-26T19:35:54.758505 #65244] ERROR -- : [[notification_service_topic_group] {signals: 0}:] Failed to join group; resetting member id and retrying in 1s...
+I, [2021-05-26T19:36:19.084396 #65244]  INFO -- : [[notification_service_topic_group] {signals: 0}:] There are no partitions to fetch from, sleeping for 1s
+I, [2021-05-26T19:36:19.084597 #65244]  INFO -- : [[notification_service_topic_group] {signals: 0}:] Joining group `notification_service_topic_group`
+I, [2021-05-26T19:36:19.091055 #65244]  INFO -- : [[notification_service_topic_group] {signals: 0}:] Joined group `notification_service_topic_group` with member id `notification_service-8e531e7d-c02e-4585-af9b-7aef97e3b5de`
+I, [2021-05-26T19:36:19.091109 #65244]  INFO -- : [[notification_service_topic_group] {signals: 0}:] Chosen as leader of group `notification_service_topic_group`
+I, [2021-05-26T19:36:19.095558 #65244]  INFO -- : [[notification_service_topic_group] {signals: 0}:] Partitions assigned for `signals`: 0
+I, [2021-05-26T19:36:19.101749 #65244]  INFO -- : [[notification_service_topic_group] {signals: 0}:] Automatically resuming partition signals/0, pause timeout expired
+I, [2021-05-26T19:36:20.089828 #65244]  INFO -- : [[notification_service_topic_group] {signals: 0}:] Seeking signals/0 to offset 200
+I, [2021-05-26T19:36:20.089923 #65244]  INFO -- : [[notification_service_topic_group] {signals: 0}:] Seeking signals/0 to offset 200
+E, [2021-05-26T19:36:21.104604 #65244] ERROR -- : [[notification_service_topic_group] {signals: 0}:] Exception raised when processing signals/0 in offset range 200..249 -- NoMethodError: undefined method `params_array' for #<Karafka::Params::ParamsBatch:0x00007fda87405e70>
+/Users/anton/work/repositories/3commas-kafka-example/service-consumer/app/consumers/signals_consumer.rb:5:in `consume'
+/Users/anton/.rvm/gems/ruby-2.7.0/gems/karafka-1.3.3/lib/karafka/backends/inline.rb:12:in `block in process'
+/Users/anton/.rvm/gems/ruby-2.7.0/gems/dry-monitor-0.3.1/lib/dry/monitor/notifications.rb:43:in `block in instrument'
+/Users/anton/.rvm/gems/ruby-2.7.0/gems/dry-monitor-0.3.1/lib/dry/monitor/notifications.rb:11:in `measure'
+/Users/anton/.rvm/gems/ruby-2.7.0/gems/dry-monitor-0.3.1/lib/dry/monitor/notifications.rb:43:in `instrument'
+/Users/anton/.rvm/gems/ruby-2.7.0/gems/karafka-1.3.3/lib/karafka/backends/inline.rb:12:in `process'
+/Users/anton/.rvm/gems/ruby-2.7.0/gems/karafka-1.3.3/lib/karafka/base_consumer.rb:38:in `call'
+/Users/anton/.rvm/gems/ruby-2.7.0/gems/karafka-1.3.3/lib/karafka/connection/batch_delegator.rb:43:in `block (2 levels) in call'
+/Users/anton/.rvm/gems/ruby-2.7.0/gems/karafka-1.3.3/lib/karafka/connection/batch_delegator.rb:38:in `each'
+/Users/anton/.rvm/gems/ruby-2.7.0/gems/karafka-1.3.3/lib/karafka/connection/batch_delegator.rb:38:in `block in call'
+/Users/anton/.rvm/gems/ruby-2.7.0/gems/dry-monitor-0.3.1/lib/dry/monitor/notifications.rb:43:in `block in instrument'
+/Users/anton/.rvm/gems/ruby-2.7.0/gems/dry-monitor-0.3.1/lib/dry/monitor/notifications.rb:11:in `measure'
+/Users/anton/.rvm/gems/ruby-2.7.0/gems/dry-monitor-0.3.1/lib/dry/monitor/notifications.rb:43:in `instrument'
+/Users/anton/.rvm/gems/ruby-2.7.0/gems/karafka-1.3.3/lib/karafka/connection/batch_delegator.rb:18:in `call'
+/Users/anton/.rvm/gems/ruby-2.7.0/gems/karafka-1.3.3/lib/karafka/connection/listener.rb:46:in `block in fetch_loop'
+/Users/anton/.rvm/gems/ruby-2.7.0/gems/karafka-1.3.3/lib/karafka/connection/client.rb:36:in `block in fetch_loop'
+/Users/anton/.rvm/gems/ruby-2.7.0/gems/ruby-kafka-0.7.10/lib/kafka/consumer.rb:322:in `block (3 levels) in each_batch'
+/Users/anton/.rvm/gems/ruby-2.7.0/gems/ruby-kafka-0.7.10/lib/kafka/instrumenter.rb:23:in `instrument'
+/Users/anton/.rvm/gems/ruby-2.7.0/gems/ruby-kafka-0.7.10/lib/kafka/instrumenter.rb:35:in `instrument'
+/Users/anton/.rvm/gems/ruby-2.7.0/gems/ruby-kafka-0.7.10/lib/kafka/consumer.rb:320:in `block (2 levels) in each_batch'
+/Users/anton/.rvm/gems/ruby-2.7.0/gems/ruby-kafka-0.7.10/lib/kafka/consumer.rb:302:in `each'
+/Users/anton/.rvm/gems/ruby-2.7.0/gems/ruby-kafka-0.7.10/lib/kafka/consumer.rb:302:in `block in each_batch'
+/Users/anton/.rvm/gems/ruby-2.7.0/gems/karafka-1.3.3/lib/karafka/patches/ruby_kafka.rb:28:in `block in consumer_loop'
+/Users/anton/.rvm/gems/ruby-2.7.0/gems/ruby-kafka-0.7.10/lib/kafka/consumer.rb:404:in `block in consumer_loop'
+/Users/anton/.rvm/gems/ruby-2.7.0/gems/ruby-kafka-0.7.10/lib/kafka/instrumenter.rb:23:in `instrument'
+/Users/anton/.rvm/gems/ruby-2.7.0/gems/ruby-kafka-0.7.10/lib/kafka/instrumenter.rb:35:in `instrument'
+/Users/anton/.rvm/gems/ruby-2.7.0/gems/ruby-kafka-0.7.10/lib/kafka/consumer.rb:403:in `consumer_loop'
+/Users/anton/.rvm/gems/ruby-2.7.0/gems/karafka-1.3.3/lib/karafka/patches/ruby_kafka.rb:16:in `consumer_loop'
+/Users/anton/.rvm/gems/ruby-2.7.0/gems/ruby-kafka-0.7.10/lib/kafka/consumer.rb:299:in `each_batch'
+/Users/anton/.rvm/gems/ruby-2.7.0/gems/karafka-1.3.3/lib/karafka/connection/client.rb:36:in `fetch_loop'
+/Users/anton/.rvm/gems/ruby-2.7.0/gems/karafka-1.3.3/lib/karafka/connection/listener.rb:39:in `fetch_loop'
+/Users/anton/.rvm/gems/ruby-2.7.0/gems/karafka-1.3.3/lib/karafka/connection/listener.rb:24:in `call'
+/Users/anton/.rvm/gems/ruby-2.7.0/gems/karafka-1.3.3/lib/karafka/fetcher.rb:18:in `block (2 levels) in call'
+I, [2021-05-26T19:36:22.105557 #65244]  INFO -- : [notification_service_topic_group] {signals: 0}: Fetcher thread exited.
+I, [2021-05-26T19:36:22.105668 #65244]  INFO -- : [[notification_service_topic_group] {signals: 0}:] Leaving group `notification_service_topic_group`
+E, [2021-05-26T19:36:22.109671 #65244] ERROR -- : Client fetch loop error: undefined method `params_array' for #<Karafka::Params::ParamsBatch:0x00007fda87405e70>
+I, [2021-05-26T19:36:22.110204 #65244]  INFO -- : [[notification_service_topic_group] {signals: 0}:] Joining group `notification_service_topic_group`
+I, [2021-05-26T19:36:22.110517 #65244]  INFO -- : [[notification_service_topic_group] {signals: 0}:] There are no partitions to fetch from, sleeping for 1s
+E, [2021-05-26T19:36:22.115407 #65244] ERROR -- : [[notification_service_topic_group] {signals: 0}:] Failed to join group; resetting member id and retrying in 1s...
+I, [2021-05-26T19:36:23.115142 #65244]  INFO -- : [[notification_service_topic_group] {signals: 0}:] There are no partitions to fetch from, sleeping for 1s
+I, [2021-05-26T19:36:23.116919 #65244]  INFO -- : [[notification_service_topic_group] {signals: 0}:] Joining group `notification_service_topic_group`
+I, [2021-05-26T19:36:23.126064 #65244]  INFO -- : [[notification_service_topic_group] {signals: 0}:] Joined group `notification_service_topic_group` with member id `notification_service-21725214-0a49-48b6-b3cf-47f6fada1618`
+I, [2021-05-26T19:36:23.126155 #65244]  INFO -- : [[notification_service_topic_group] {signals: 0}:] Chosen as leader of group `notification_service_topic_group`
+I, [2021-05-26T19:36:23.132328 #65244]  INFO -- : [[notification_service_topic_group] {signals: 0}:] Partitions assigned for `signals`: 0
+W, [2021-05-26T19:36:23.132467 #65244]  WARN -- : [[notification_service_topic_group] {signals: 0}:] Not fetching from signals/0 due to pause
+I, [2021-05-26T19:36:24.117304 #65244]  INFO -- : [[notification_service_topic_group] {signals: 0}:] There are no partitions to fetch from, sleeping for 1s
+I, [2021-05-26T19:36:24.859129 #65244]  INFO -- : Received SIGINT system signal
+I, [2021-05-26T19:36:24.859454 #65244]  INFO -- : Stopping Karafka server 65244
+I, [2021-05-26T19:36:25.117964 #65244]  INFO -- : [[notification_service_topic_group] {signals: 0}:] There are no partitions to fetch from, sleeping for 1s
+I, [2021-05-26T19:36:26.119173 #65244]  INFO -- : [notification_service_topic_group] {signals: 0}: Fetcher thread exited.
+I, [2021-05-26T19:36:26.119361 #65244]  INFO -- : [[notification_service_topic_group] {signals: 0}:] Disconnecting broker 1
+I, [2021-05-26T19:36:26.119491 #65244]  INFO -- : [[notification_service_topic_group] {signals: 0}:] Leaving group `notification_service_topic_group`
+I, [2021-05-26T19:36:26.129976 #65244]  INFO -- : Received SIGINT system signal
+I, [2021-05-26T19:36:26.130238 #65244]  INFO -- : Stopping Karafka server 65244
+I, [2021-05-26T19:44:31.650370 #69118]  INFO -- : Initializing Karafka server 69118
+I, [2021-05-26T19:44:31.720189 #69118]  INFO -- : Running Karafka server 69118
+I, [2021-05-26T19:44:31.721115 #69118]  INFO -- : New topics added to target list: signals
+I, [2021-05-26T19:44:31.721209 #69118]  INFO -- : Fetching cluster metadata from kafka://192.168.1.72:9092
+I, [2021-05-26T19:44:31.726176 #69118]  INFO -- : Discovered cluster metadata; nodes: localhost:9092 (node_id=1)
+I, [2021-05-26T19:44:31.726631 #69118]  INFO -- : [[notification_service_topic_group] {}:] Joining group `notification_service_topic_group`
+I, [2021-05-26T19:44:31.726752 #69118]  INFO -- : [[notification_service_topic_group] {}:] Will fetch at most 1048576 bytes at a time per partition from signals
+I, [2021-05-26T19:44:31.727083 #69118]  INFO -- : [[notification_service_topic_group] {}:] Fetching cluster metadata from kafka://192.168.1.72:9092
+I, [2021-05-26T19:44:31.730782 #69118]  INFO -- : [[notification_service_topic_group] {}:] Discovered cluster metadata; nodes: localhost:9092 (node_id=1)
+I, [2021-05-26T19:44:31.730928 #69118]  INFO -- : [[notification_service_topic_group] {}:] There are no partitions to fetch from, sleeping for 1s
+I, [2021-05-26T19:44:31.744245 #69118]  INFO -- : [[notification_service_topic_group] {}:] Joined group `notification_service_topic_group` with member id `notification_service-0b2d7393-ad53-4939-8dae-f0579f614f8a`
+I, [2021-05-26T19:44:31.744352 #69118]  INFO -- : [[notification_service_topic_group] {}:] Chosen as leader of group `notification_service_topic_group`
+I, [2021-05-26T19:44:31.747251 #69118]  INFO -- : [[notification_service_topic_group] {}:] Partitions assigned for `signals`: 0
+I, [2021-05-26T19:44:32.734553 #69118]  INFO -- : [[notification_service_topic_group] {signals: 0}:] Seeking signals/0 to offset 200
+I, [2021-05-26T19:44:32.734747 #69118]  INFO -- : [[notification_service_topic_group] {signals: 0}:] New topics added to target list: signals
+I, [2021-05-26T19:44:32.734806 #69118]  INFO -- : [[notification_service_topic_group] {signals: 0}:] Fetching cluster metadata from kafka://192.168.1.72:9092
+I, [2021-05-26T19:44:32.742760 #69118]  INFO -- : [[notification_service_topic_group] {signals: 0}:] Discovered cluster metadata; nodes: localhost:9092 (node_id=1)
+I, [2021-05-26T19:44:33.763617 #69118]  INFO -- : Inline processing of topic signals with 50 messages took 9 ms
+I, [2021-05-26T19:44:33.763783 #69118]  INFO -- : 50 messages on signals topic delegated to SignalsConsumer
+I, [2021-05-26T19:47:11.562564 #69118]  INFO -- : Received SIGINT system signal
+I, [2021-05-26T19:47:11.562639 #69118]  INFO -- : Stopping Karafka server 69118
+I, [2021-05-26T19:47:12.406523 #69118]  INFO -- : [notification_service_topic_group] {signals: 0}: Fetcher thread exited.
+I, [2021-05-26T19:47:12.406759 #69118]  INFO -- : [[notification_service_topic_group] {}:] Disconnecting broker 1
+I, [2021-05-26T19:47:12.414268 #69118]  INFO -- : [[notification_service_topic_group] {}:] Leaving group `notification_service_topic_group`
+I, [2021-05-26T19:47:14.402409 #70187]  INFO -- : Initializing Karafka server 70187
+I, [2021-05-26T19:47:14.470563 #70187]  INFO -- : Running Karafka server 70187
+I, [2021-05-26T19:47:14.471499 #70187]  INFO -- : New topics added to target list: signals
+I, [2021-05-26T19:47:14.471566 #70187]  INFO -- : Fetching cluster metadata from kafka://192.168.1.72:9092
+I, [2021-05-26T19:47:14.476480 #70187]  INFO -- : Discovered cluster metadata; nodes: localhost:9092 (node_id=1)
+I, [2021-05-26T19:47:14.476817 #70187]  INFO -- : [[notification_service_topic_group] {}:] Joining group `notification_service_topic_group`
+I, [2021-05-26T19:47:14.476925 #70187]  INFO -- : [[notification_service_topic_group] {}:] Will fetch at most 1048576 bytes at a time per partition from signals
+I, [2021-05-26T19:47:14.477262 #70187]  INFO -- : [[notification_service_topic_group] {}:] Fetching cluster metadata from kafka://192.168.1.72:9092
+I, [2021-05-26T19:47:14.481267 #70187]  INFO -- : [[notification_service_topic_group] {}:] Discovered cluster metadata; nodes: localhost:9092 (node_id=1)
+I, [2021-05-26T19:47:14.481441 #70187]  INFO -- : [[notification_service_topic_group] {}:] There are no partitions to fetch from, sleeping for 1s
+I, [2021-05-26T19:47:14.492005 #70187]  INFO -- : [[notification_service_topic_group] {}:] Joined group `notification_service_topic_group` with member id `notification_service-09edb43f-3afb-4a88-9941-6ced50867393`
+I, [2021-05-26T19:47:14.492063 #70187]  INFO -- : [[notification_service_topic_group] {}:] Chosen as leader of group `notification_service_topic_group`
+I, [2021-05-26T19:47:14.494956 #70187]  INFO -- : [[notification_service_topic_group] {}:] Partitions assigned for `signals`: 0
+I, [2021-05-26T19:47:15.482354 #70187]  INFO -- : [[notification_service_topic_group] {signals: 0}:] Seeking signals/0 to offset 250
+I, [2021-05-26T19:47:15.482511 #70187]  INFO -- : [[notification_service_topic_group] {signals: 0}:] New topics added to target list: signals
+I, [2021-05-26T19:47:15.482568 #70187]  INFO -- : [[notification_service_topic_group] {signals: 0}:] Fetching cluster metadata from kafka://192.168.1.72:9092
+I, [2021-05-26T19:47:15.489618 #70187]  INFO -- : [[notification_service_topic_group] {signals: 0}:] Discovered cluster metadata; nodes: localhost:9092 (node_id=1)
+I, [2021-05-26T19:47:20.214388 #70187]  INFO -- : Received SIGINT system signal
+I, [2021-05-26T19:47:20.214646 #70187]  INFO -- : Stopping Karafka server 70187
+I, [2021-05-26T19:47:20.515434 #70187]  INFO -- : [notification_service_topic_group] {signals: 0}: Fetcher thread exited.
+I, [2021-05-26T19:47:20.515571 #70187]  INFO -- : [[notification_service_topic_group] {}:] Disconnecting broker 1
+I, [2021-05-26T19:47:20.515696 #70187]  INFO -- : [[notification_service_topic_group] {}:] Leaving group `notification_service_topic_group`
+I, [2021-05-26T19:48:53.325052 #70950]  INFO -- : Initializing Karafka server 70950
+I, [2021-05-26T19:48:53.400853 #70950]  INFO -- : Running Karafka server 70950
+I, [2021-05-26T19:48:53.401639 #70950]  INFO -- : New topics added to target list: signals
+I, [2021-05-26T19:48:53.401709 #70950]  INFO -- : Fetching cluster metadata from kafka://192.168.1.72:9092
+I, [2021-05-26T19:48:53.407543 #70950]  INFO -- : Discovered cluster metadata; nodes: localhost:9092 (node_id=1)
+I, [2021-05-26T19:48:53.407780 #70950]  INFO -- : [[notification_service_topic_group] {}:] Joining group `notification_service_topic_group`
+I, [2021-05-26T19:48:53.408019 #70950]  INFO -- : [[notification_service_topic_group] {}:] Will fetch at most 1048576 bytes at a time per partition from signals
+I, [2021-05-26T19:48:53.408405 #70950]  INFO -- : [[notification_service_topic_group] {}:] Fetching cluster metadata from kafka://192.168.1.72:9092
+I, [2021-05-26T19:48:53.413147 #70950]  INFO -- : [[notification_service_topic_group] {}:] Discovered cluster metadata; nodes: localhost:9092 (node_id=1)
+I, [2021-05-26T19:48:53.413285 #70950]  INFO -- : [[notification_service_topic_group] {}:] There are no partitions to fetch from, sleeping for 1s
+I, [2021-05-26T19:48:53.424237 #70950]  INFO -- : [[notification_service_topic_group] {}:] Joined group `notification_service_topic_group` with member id `notification_service-683b61fe-39ef-4167-913a-13df4fc58eb4`
+I, [2021-05-26T19:48:53.424302 #70950]  INFO -- : [[notification_service_topic_group] {}:] Chosen as leader of group `notification_service_topic_group`
+I, [2021-05-26T19:48:53.427542 #70950]  INFO -- : [[notification_service_topic_group] {}:] Partitions assigned for `signals`: 0
+I, [2021-05-26T19:48:54.417099 #70950]  INFO -- : [[notification_service_topic_group] {signals: 0}:] Seeking signals/0 to offset 250
+I, [2021-05-26T19:48:54.417221 #70950]  INFO -- : [[notification_service_topic_group] {signals: 0}:] New topics added to target list: signals
+I, [2021-05-26T19:48:54.417277 #70950]  INFO -- : [[notification_service_topic_group] {signals: 0}:] Fetching cluster metadata from kafka://192.168.1.72:9092
+I, [2021-05-26T19:48:54.422600 #70950]  INFO -- : [[notification_service_topic_group] {signals: 0}:] Discovered cluster metadata; nodes: localhost:9092 (node_id=1)
+W, [2021-05-26T19:48:58.447656 #70950]  WARN -- : [[notification_service_topic_group] {signals: 0}:] Reached max fetcher queue size (10), sleeping 1s
+E, [2021-05-26T19:48:59.443788 #70950] ERROR -- : [[notification_service_topic_group] {}:] Exception raised when processing signals/0 in offset range 250..250 -- SQLite3::SQLException: unrecognized token: "{"
+/Users/anton/.rvm/gems/ruby-2.7.0/gems/sqlite3-1.4.2/lib/sqlite3/database.rb:147:in `initialize'
+/Users/anton/.rvm/gems/ruby-2.7.0/gems/sqlite3-1.4.2/lib/sqlite3/database.rb:147:in `new'
+/Users/anton/.rvm/gems/ruby-2.7.0/gems/sqlite3-1.4.2/lib/sqlite3/database.rb:147:in `prepare'
+/Users/anton/.rvm/gems/ruby-2.7.0/gems/sqlite3-1.4.2/lib/sqlite3/database.rb:193:in `execute'
+/Users/anton/work/repositories/3commas-kafka-example/service-consumer/app/consumers/signals_consumer.rb:10:in `consume'
+/Users/anton/.rvm/gems/ruby-2.7.0/gems/karafka-1.3.3/lib/karafka/backends/inline.rb:12:in `block in process'
+/Users/anton/.rvm/gems/ruby-2.7.0/gems/dry-monitor-0.3.1/lib/dry/monitor/notifications.rb:43:in `block in instrument'
+/Users/anton/.rvm/gems/ruby-2.7.0/gems/dry-monitor-0.3.1/lib/dry/monitor/notifications.rb:11:in `measure'
+/Users/anton/.rvm/gems/ruby-2.7.0/gems/dry-monitor-0.3.1/lib/dry/monitor/notifications.rb:43:in `instrument'
+/Users/anton/.rvm/gems/ruby-2.7.0/gems/karafka-1.3.3/lib/karafka/backends/inline.rb:12:in `process'
+/Users/anton/.rvm/gems/ruby-2.7.0/gems/karafka-1.3.3/lib/karafka/base_consumer.rb:38:in `call'
+/Users/anton/.rvm/gems/ruby-2.7.0/gems/karafka-1.3.3/lib/karafka/connection/batch_delegator.rb:36:in `block in call'
+/Users/anton/.rvm/gems/ruby-2.7.0/gems/dry-monitor-0.3.1/lib/dry/monitor/notifications.rb:43:in `block in instrument'
+/Users/anton/.rvm/gems/ruby-2.7.0/gems/dry-monitor-0.3.1/lib/dry/monitor/notifications.rb:11:in `measure'
+/Users/anton/.rvm/gems/ruby-2.7.0/gems/dry-monitor-0.3.1/lib/dry/monitor/notifications.rb:43:in `instrument'
+/Users/anton/.rvm/gems/ruby-2.7.0/gems/karafka-1.3.3/lib/karafka/connection/batch_delegator.rb:18:in `call'
+/Users/anton/.rvm/gems/ruby-2.7.0/gems/karafka-1.3.3/lib/karafka/connection/listener.rb:46:in `block in fetch_loop'
+/Users/anton/.rvm/gems/ruby-2.7.0/gems/karafka-1.3.3/lib/karafka/connection/client.rb:36:in `block in fetch_loop'
+/Users/anton/.rvm/gems/ruby-2.7.0/gems/ruby-kafka-0.7.10/lib/kafka/consumer.rb:322:in `block (3 levels) in each_batch'
+/Users/anton/.rvm/gems/ruby-2.7.0/gems/ruby-kafka-0.7.10/lib/kafka/instrumenter.rb:23:in `instrument'
+/Users/anton/.rvm/gems/ruby-2.7.0/gems/ruby-kafka-0.7.10/lib/kafka/instrumenter.rb:35:in `instrument'
+/Users/anton/.rvm/gems/ruby-2.7.0/gems/ruby-kafka-0.7.10/lib/kafka/consumer.rb:320:in `block (2 levels) in each_batch'
+/Users/anton/.rvm/gems/ruby-2.7.0/gems/ruby-kafka-0.7.10/lib/kafka/consumer.rb:302:in `each'
+/Users/anton/.rvm/gems/ruby-2.7.0/gems/ruby-kafka-0.7.10/lib/kafka/consumer.rb:302:in `block in each_batch'
+/Users/anton/.rvm/gems/ruby-2.7.0/gems/karafka-1.3.3/lib/karafka/patches/ruby_kafka.rb:28:in `block in consumer_loop'
+/Users/anton/.rvm/gems/ruby-2.7.0/gems/ruby-kafka-0.7.10/lib/kafka/consumer.rb:404:in `block in consumer_loop'
+/Users/anton/.rvm/gems/ruby-2.7.0/gems/ruby-kafka-0.7.10/lib/kafka/instrumenter.rb:23:in `instrument'
+/Users/anton/.rvm/gems/ruby-2.7.0/gems/ruby-kafka-0.7.10/lib/kafka/instrumenter.rb:35:in `instrument'
+/Users/anton/.rvm/gems/ruby-2.7.0/gems/ruby-kafka-0.7.10/lib/kafka/consumer.rb:403:in `consumer_loop'
+/Users/anton/.rvm/gems/ruby-2.7.0/gems/karafka-1.3.3/lib/karafka/patches/ruby_kafka.rb:16:in `consumer_loop'
+/Users/anton/.rvm/gems/ruby-2.7.0/gems/ruby-kafka-0.7.10/lib/kafka/consumer.rb:299:in `each_batch'
+/Users/anton/.rvm/gems/ruby-2.7.0/gems/karafka-1.3.3/lib/karafka/connection/client.rb:36:in `fetch_loop'
+/Users/anton/.rvm/gems/ruby-2.7.0/gems/karafka-1.3.3/lib/karafka/connection/listener.rb:39:in `fetch_loop'
+/Users/anton/.rvm/gems/ruby-2.7.0/gems/karafka-1.3.3/lib/karafka/connection/listener.rb:24:in `call'
+/Users/anton/.rvm/gems/ruby-2.7.0/gems/karafka-1.3.3/lib/karafka/fetcher.rb:18:in `block (2 levels) in call'
+I, [2021-05-26T19:48:59.447915 #70950]  INFO -- : [notification_service_topic_group] {signals: 0}: Fetcher thread exited.
+I, [2021-05-26T19:48:59.448018 #70950]  INFO -- : [[notification_service_topic_group] {}:] Leaving group `notification_service_topic_group`
+E, [2021-05-26T19:48:59.454296 #70950] ERROR -- : Client fetch loop error: unrecognized token: "{"
+I, [2021-05-26T19:48:59.454575 #70950]  INFO -- : [[notification_service_topic_group] {signals: 0}:] Joining group `notification_service_topic_group`
+I, [2021-05-26T19:48:59.454719 #70950]  INFO -- : [[notification_service_topic_group] {signals: 0}:] There are no partitions to fetch from, sleeping for 1s
+E, [2021-05-26T19:48:59.457009 #70950] ERROR -- : [[notification_service_topic_group] {signals: 0}:] Failed to join group; resetting member id and retrying in 1s...
+I, [2021-05-26T19:49:00.457513 #70950]  INFO -- : [[notification_service_topic_group] {signals: 0}:] There are no partitions to fetch from, sleeping for 1s
+I, [2021-05-26T19:49:00.460816 #70950]  INFO -- : [[notification_service_topic_group] {signals: 0}:] Joining group `notification_service_topic_group`
+I, [2021-05-26T19:49:00.472667 #70950]  INFO -- : [[notification_service_topic_group] {signals: 0}:] Joined group `notification_service_topic_group` with member id `notification_service-f1fb1b30-37be-4586-8e34-ae8eafd76ad6`
+I, [2021-05-26T19:49:00.472758 #70950]  INFO -- : [[notification_service_topic_group] {signals: 0}:] Chosen as leader of group `notification_service_topic_group`
+I, [2021-05-26T19:49:00.480724 #70950]  INFO -- : [[notification_service_topic_group] {signals: 0}:] Partitions assigned for `signals`: 0
+W, [2021-05-26T19:49:00.480838 #70950]  WARN -- : [[notification_service_topic_group] {signals: 0}:] Not fetching from signals/0 due to pause
+I, [2021-05-26T19:49:01.459949 #70950]  INFO -- : [[notification_service_topic_group] {signals: 0}:] There are no partitions to fetch from, sleeping for 1s
+I, [2021-05-26T19:49:02.464761 #70950]  INFO -- : [[notification_service_topic_group] {signals: 0}:] There are no partitions to fetch from, sleeping for 1s
+I, [2021-05-26T19:49:03.465268 #70950]  INFO -- : [[notification_service_topic_group] {signals: 0}:] There are no partitions to fetch from, sleeping for 1s
+I, [2021-05-26T19:49:04.467258 #70950]  INFO -- : [[notification_service_topic_group] {signals: 0}:] There are no partitions to fetch from, sleeping for 1s
+I, [2021-05-26T19:49:05.459902 #70950]  INFO -- : Received SIGINT system signal
+I, [2021-05-26T19:49:05.459972 #70950]  INFO -- : Stopping Karafka server 70950
+I, [2021-05-26T19:49:05.470629 #70950]  INFO -- : [[notification_service_topic_group] {signals: 0}:] There are no partitions to fetch from, sleeping for 1s
+I, [2021-05-26T19:49:06.473570 #70950]  INFO -- : [[notification_service_topic_group] {signals: 0}:] There are no partitions to fetch from, sleeping for 1s
+I, [2021-05-26T19:49:07.473894 #70950]  INFO -- : [notification_service_topic_group] {signals: 0}: Fetcher thread exited.
+I, [2021-05-26T19:49:07.474004 #70950]  INFO -- : [[notification_service_topic_group] {signals: 0}:] Disconnecting broker 1
+I, [2021-05-26T19:49:07.474118 #70950]  INFO -- : [[notification_service_topic_group] {signals: 0}:] Leaving group `notification_service_topic_group`
+I, [2021-05-26T19:56:59.391977 #76829]  INFO -- : Initializing Karafka server 76829
+I, [2021-05-26T19:56:59.468255 #76829]  INFO -- : Running Karafka server 76829
+I, [2021-05-26T19:56:59.469465 #76829]  INFO -- : New topics added to target list: signals
+I, [2021-05-26T19:56:59.469524 #76829]  INFO -- : Fetching cluster metadata from kafka://192.168.1.72:9092
+I, [2021-05-26T19:56:59.473658 #76829]  INFO -- : Discovered cluster metadata; nodes: localhost:9092 (node_id=1)
+I, [2021-05-26T19:56:59.473873 #76829]  INFO -- : [[notification_service_topic_group] {}:] Joining group `notification_service_topic_group`
+I, [2021-05-26T19:56:59.473958 #76829]  INFO -- : [[notification_service_topic_group] {}:] Will fetch at most 1048576 bytes at a time per partition from signals
+I, [2021-05-26T19:56:59.474371 #76829]  INFO -- : [[notification_service_topic_group] {}:] Fetching cluster metadata from kafka://192.168.1.72:9092
+I, [2021-05-26T19:56:59.477683 #76829]  INFO -- : [[notification_service_topic_group] {}:] Discovered cluster metadata; nodes: localhost:9092 (node_id=1)
+I, [2021-05-26T19:56:59.477810 #76829]  INFO -- : [[notification_service_topic_group] {}:] There are no partitions to fetch from, sleeping for 1s
+I, [2021-05-26T19:56:59.487742 #76829]  INFO -- : [[notification_service_topic_group] {}:] Joined group `notification_service_topic_group` with member id `notification_service-fd0efdb6-add1-4444-b22a-711e991516c1`
+I, [2021-05-26T19:56:59.487813 #76829]  INFO -- : [[notification_service_topic_group] {}:] Chosen as leader of group `notification_service_topic_group`
+I, [2021-05-26T19:56:59.491643 #76829]  INFO -- : [[notification_service_topic_group] {}:] Partitions assigned for `signals`: 0
+I, [2021-05-26T19:57:00.481319 #76829]  INFO -- : [[notification_service_topic_group] {signals: 0}:] Seeking signals/0 to offset 250
+I, [2021-05-26T19:57:00.481529 #76829]  INFO -- : [[notification_service_topic_group] {signals: 0}:] New topics added to target list: signals
+I, [2021-05-26T19:57:00.481589 #76829]  INFO -- : [[notification_service_topic_group] {signals: 0}:] Fetching cluster metadata from kafka://192.168.1.72:9092
+I, [2021-05-26T19:57:00.485555 #76829]  INFO -- : [[notification_service_topic_group] {signals: 0}:] Discovered cluster metadata; nodes: localhost:9092 (node_id=1)
+I, [2021-05-26T19:57:01.509588 #76829]  INFO -- : Inline processing of topic signals with 50 messages took 8 ms
+I, [2021-05-26T19:57:01.509660 #76829]  INFO -- : 50 messages on signals topic delegated to SignalsConsumer
+W, [2021-05-26T19:57:03.816959 #76829]  WARN -- : [[notification_service_topic_group] {signals: 0}:] Reached max fetcher queue size (10), sleeping 1s
+W, [2021-05-26T19:57:04.817452 #76829]  WARN -- : [[notification_service_topic_group] {signals: 0}:] Reached max fetcher queue size (10), sleeping 1s
+I, [2021-05-26T19:57:05.519510 #76829]  INFO -- : Inline processing of topic signals with 1 messages took 1 ms
+I, [2021-05-26T19:57:05.519578 #76829]  INFO -- : 1 messages on signals topic delegated to SignalsConsumer
+I, [2021-05-26T19:57:05.520713 #76829]  INFO -- : Inline processing of topic signals with 1 messages took 1 ms
+I, [2021-05-26T19:57:05.520766 #76829]  INFO -- : 1 messages on signals topic delegated to SignalsConsumer
+I, [2021-05-26T19:57:05.521714 #76829]  INFO -- : Inline processing of topic signals with 1 messages took 1 ms
+I, [2021-05-26T19:57:05.521766 #76829]  INFO -- : 1 messages on signals topic delegated to SignalsConsumer
+I, [2021-05-26T19:57:05.522795 #76829]  INFO -- : Inline processing of topic signals with 1 messages took 1 ms
+I, [2021-05-26T19:57:05.522850 #76829]  INFO -- : 1 messages on signals topic delegated to SignalsConsumer
+I, [2021-05-26T19:57:05.523868 #76829]  INFO -- : Inline processing of topic signals with 1 messages took 1 ms
+I, [2021-05-26T19:57:05.523921 #76829]  INFO -- : 1 messages on signals topic delegated to SignalsConsumer
+I, [2021-05-26T19:57:05.525113 #76829]  INFO -- : Inline processing of topic signals with 1 messages took 1 ms
+I, [2021-05-26T19:57:05.525193 #76829]  INFO -- : 1 messages on signals topic delegated to SignalsConsumer
+I, [2021-05-26T19:57:05.526331 #76829]  INFO -- : Inline processing of topic signals with 1 messages took 1 ms
+I, [2021-05-26T19:57:05.526406 #76829]  INFO -- : 1 messages on signals topic delegated to SignalsConsumer
+I, [2021-05-26T19:57:05.527577 #76829]  INFO -- : Inline processing of topic signals with 1 messages took 1 ms
+I, [2021-05-26T19:57:05.527634 #76829]  INFO -- : 1 messages on signals topic delegated to SignalsConsumer
+I, [2021-05-26T19:57:05.528830 #76829]  INFO -- : Inline processing of topic signals with 1 messages took 1 ms
+I, [2021-05-26T19:57:05.528882 #76829]  INFO -- : 1 messages on signals topic delegated to SignalsConsumer
+I, [2021-05-26T19:57:05.529910 #76829]  INFO -- : Inline processing of topic signals with 1 messages took 1 ms
+I, [2021-05-26T19:57:05.529969 #76829]  INFO -- : 1 messages on signals topic delegated to SignalsConsumer
+W, [2021-05-26T19:57:06.529060 #76829]  WARN -- : [[notification_service_topic_group] {signals: 0}:] Reached max fetcher queue size (10), sleeping 1s
+I, [2021-05-26T19:57:07.539388 #76829]  INFO -- : Inline processing of topic signals with 90 messages took 6 ms
+I, [2021-05-26T19:57:07.539573 #76829]  INFO -- : 90 messages on signals topic delegated to SignalsConsumer
+I, [2021-05-26T19:57:07.541207 #76829]  INFO -- : Inline processing of topic signals with 1 messages took 2 ms
+I, [2021-05-26T19:57:07.541290 #76829]  INFO -- : 1 messages on signals topic delegated to SignalsConsumer
+I, [2021-05-26T19:57:07.542999 #76829]  INFO -- : Inline processing of topic signals with 1 messages took 1 ms
+I, [2021-05-26T19:57:07.543316 #76829]  INFO -- : 1 messages on signals topic delegated to SignalsConsumer
+I, [2021-05-26T19:57:07.544886 #76829]  INFO -- : Inline processing of topic signals with 1 messages took 1 ms
+I, [2021-05-26T19:57:07.547687 #76829]  INFO -- : 1 messages on signals topic delegated to SignalsConsumer
+I, [2021-05-26T19:57:07.549451 #76829]  INFO -- : Inline processing of topic signals with 1 messages took 2 ms
+I, [2021-05-26T19:57:07.549531 #76829]  INFO -- : 1 messages on signals topic delegated to SignalsConsumer
+I, [2021-05-26T19:57:07.550982 #76829]  INFO -- : Inline processing of topic signals with 1 messages took 1 ms
+I, [2021-05-26T19:57:07.551106 #76829]  INFO -- : 1 messages on signals topic delegated to SignalsConsumer
+I, [2021-05-26T19:57:07.552599 #76829]  INFO -- : Inline processing of topic signals with 1 messages took 1 ms
+I, [2021-05-26T19:57:07.552743 #76829]  INFO -- : 1 messages on signals topic delegated to SignalsConsumer
+I, [2021-05-26T19:57:07.554426 #76829]  INFO -- : Inline processing of topic signals with 1 messages took 2 ms
+I, [2021-05-26T19:57:07.554584 #76829]  INFO -- : 1 messages on signals topic delegated to SignalsConsumer
+I, [2021-05-26T19:57:07.556170 #76829]  INFO -- : Inline processing of topic signals with 1 messages took 1 ms
+I, [2021-05-26T19:57:07.556277 #76829]  INFO -- : 1 messages on signals topic delegated to SignalsConsumer
+I, [2021-05-26T19:57:07.557793 #76829]  INFO -- : Inline processing of topic signals with 1 messages took 1 ms
+I, [2021-05-26T19:57:07.557871 #76829]  INFO -- : 1 messages on signals topic delegated to SignalsConsumer
+I, [2021-05-26T19:57:07.560829 #76829]  INFO -- : Inline processing of topic signals with 41 messages took 2 ms
+I, [2021-05-26T19:57:07.560900 #76829]  INFO -- : 41 messages on signals topic delegated to SignalsConsumer
+W, [2021-05-26T19:57:08.004983 #76829]  WARN -- : [[notification_service_topic_group] {signals: 0}:] Reached max fetcher queue size (10), sleeping 1s
+W, [2021-05-26T19:57:09.008691 #76829]  WARN -- : [[notification_service_topic_group] {signals: 0}:] Reached max fetcher queue size (10), sleeping 1s
+I, [2021-05-26T19:57:09.574998 #76829]  INFO -- : Inline processing of topic signals with 1 messages took 6 ms
+I, [2021-05-26T19:57:09.575074 #76829]  INFO -- : 1 messages on signals topic delegated to SignalsConsumer
+I, [2021-05-26T19:57:09.576396 #76829]  INFO -- : Inline processing of topic signals with 1 messages took 1 ms
+I, [2021-05-26T19:57:09.576759 #76829]  INFO -- : 1 messages on signals topic delegated to SignalsConsumer
+I, [2021-05-26T19:57:09.577890 #76829]  INFO -- : Inline processing of topic signals with 1 messages took 1 ms
+I, [2021-05-26T19:57:09.577943 #76829]  INFO -- : 1 messages on signals topic delegated to SignalsConsumer
+I, [2021-05-26T19:57:09.578975 #76829]  INFO -- : Inline processing of topic signals with 1 messages took 1 ms
+I, [2021-05-26T19:57:09.579053 #76829]  INFO -- : 1 messages on signals topic delegated to SignalsConsumer
+I, [2021-05-26T19:57:09.580298 #76829]  INFO -- : Inline processing of topic signals with 1 messages took 1 ms
+I, [2021-05-26T19:57:09.580364 #76829]  INFO -- : 1 messages on signals topic delegated to SignalsConsumer
+I, [2021-05-26T19:57:09.581618 #76829]  INFO -- : Inline processing of topic signals with 1 messages took 1 ms
+I, [2021-05-26T19:57:09.581700 #76829]  INFO -- : 1 messages on signals topic delegated to SignalsConsumer
+I, [2021-05-26T19:57:09.582949 #76829]  INFO -- : Inline processing of topic signals with 1 messages took 1 ms
+I, [2021-05-26T19:57:09.583087 #76829]  INFO -- : 1 messages on signals topic delegated to SignalsConsumer
+I, [2021-05-26T19:57:09.584402 #76829]  INFO -- : Inline processing of topic signals with 1 messages took 1 ms
+I, [2021-05-26T19:57:09.584466 #76829]  INFO -- : 1 messages on signals topic delegated to SignalsConsumer
+I, [2021-05-26T19:57:09.585515 #76829]  INFO -- : Inline processing of topic signals with 1 messages took 1 ms
+I, [2021-05-26T19:57:09.585567 #76829]  INFO -- : 1 messages on signals topic delegated to SignalsConsumer
+I, [2021-05-26T19:57:09.586868 #76829]  INFO -- : Inline processing of topic signals with 1 messages took 1 ms
+I, [2021-05-26T19:57:09.586930 #76829]  INFO -- : 1 messages on signals topic delegated to SignalsConsumer
+I, [2021-05-26T19:57:11.601856 #76829]  INFO -- : Inline processing of topic signals with 40 messages took 7 ms
+I, [2021-05-26T19:57:11.601967 #76829]  INFO -- : 40 messages on signals topic delegated to SignalsConsumer
+I, [2021-05-26T19:57:17.216350 #76829]  INFO -- : Received SIGINT system signal
+I, [2021-05-26T19:57:17.216667 #76829]  INFO -- : Stopping Karafka server 76829
+I, [2021-05-26T19:57:18.059858 #76829]  INFO -- : [notification_service_topic_group] {signals: 0}: Fetcher thread exited.
+I, [2021-05-26T19:57:18.059968 #76829]  INFO -- : [[notification_service_topic_group] {}:] Disconnecting broker 1
+I, [2021-05-26T19:57:18.067748 #76829]  INFO -- : [[notification_service_topic_group] {}:] Leaving group `notification_service_topic_group`
+I, [2021-05-26T19:57:36.095032 #77428]  INFO -- : Initializing Karafka server 77428
+I, [2021-05-26T19:57:36.148229 #77428]  INFO -- : Running Karafka server 77428
+I, [2021-05-26T19:57:36.149213 #77428]  INFO -- : New topics added to target list: signals
+I, [2021-05-26T19:57:36.149263 #77428]  INFO -- : Fetching cluster metadata from kafka://192.168.1.72:9092
+I, [2021-05-26T19:57:36.153403 #77428]  INFO -- : Discovered cluster metadata; nodes: localhost:9092 (node_id=1)
+I, [2021-05-26T19:57:36.153704 #77428]  INFO -- : [[notification_service_topic_group] {}:] Joining group `notification_service_topic_group`
+I, [2021-05-26T19:57:36.153924 #77428]  INFO -- : [[notification_service_topic_group] {}:] Will fetch at most 1048576 bytes at a time per partition from signals
+I, [2021-05-26T19:57:36.154426 #77428]  INFO -- : [[notification_service_topic_group] {}:] Fetching cluster metadata from kafka://192.168.1.72:9092
+I, [2021-05-26T19:57:36.161710 #77428]  INFO -- : [[notification_service_topic_group] {}:] Discovered cluster metadata; nodes: localhost:9092 (node_id=1)
+I, [2021-05-26T19:57:36.161965 #77428]  INFO -- : [[notification_service_topic_group] {}:] There are no partitions to fetch from, sleeping for 1s
+I, [2021-05-26T19:57:36.176942 #77428]  INFO -- : [[notification_service_topic_group] {}:] Joined group `notification_service_topic_group` with member id `notification_service-e09823fa-17da-43fc-94ad-f51815decd8a`
+I, [2021-05-26T19:57:36.177005 #77428]  INFO -- : [[notification_service_topic_group] {}:] Chosen as leader of group `notification_service_topic_group`
+I, [2021-05-26T19:57:36.181066 #77428]  INFO -- : [[notification_service_topic_group] {}:] Partitions assigned for `signals`: 0
+I, [2021-05-26T19:57:37.163881 #77428]  INFO -- : [[notification_service_topic_group] {signals: 0}:] Seeking signals/0 to offset 500
+I, [2021-05-26T19:57:37.164065 #77428]  INFO -- : [[notification_service_topic_group] {signals: 0}:] New topics added to target list: signals
+I, [2021-05-26T19:57:37.164142 #77428]  INFO -- : [[notification_service_topic_group] {signals: 0}:] Fetching cluster metadata from kafka://192.168.1.72:9092
+I, [2021-05-26T19:57:37.170879 #77428]  INFO -- : [[notification_service_topic_group] {signals: 0}:] Discovered cluster metadata; nodes: localhost:9092 (node_id=1)
+I, [2021-05-26T19:57:38.203078 #77428]  INFO -- : Inline processing of topic signals with 150 messages took 9 ms
+I, [2021-05-26T19:57:38.206656 #77428]  INFO -- : 150 messages on signals topic delegated to SignalsConsumer
+I, [2021-05-26T19:58:44.303186 #77428]  INFO -- : Received SIGINT system signal
+I, [2021-05-26T19:58:44.303267 #77428]  INFO -- : Stopping Karafka server 77428
+I, [2021-05-26T19:58:44.493197 #77428]  INFO -- : [notification_service_topic_group] {signals: 0}: Fetcher thread exited.
+I, [2021-05-26T19:58:44.493292 #77428]  INFO -- : [[notification_service_topic_group] {}:] Disconnecting broker 1
+I, [2021-05-26T19:58:44.499286 #77428]  INFO -- : [[notification_service_topic_group] {}:] Leaving group `notification_service_topic_group`
